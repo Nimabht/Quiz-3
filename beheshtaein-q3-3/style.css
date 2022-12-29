@@ -1,0 +1,15 @@
+.container {
+  margin: 1rem auto;
+  width: min-content;
+}
+input {
+  outline: none;
+  margin: auto;
+  padding: 0.3rem 0.5rem;
+  border-radius: 5px;
+  border: 1px solid black;
+  transition: all 0.2s;
+}
+input:focus {
+  box-shadow: skyblue 0px 0px 2px 2px;
+}
